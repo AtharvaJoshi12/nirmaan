@@ -13,7 +13,7 @@ function Navbar() {
                     <a className="mr-5 hover:text-gray-900 font-semibold cursor-pointer">Contact us</a>
                 </nav>
                 <div className="relative inline-block text-left">
-                    <a href="https://rzp.io/l/xAq3aotl">
+                    <a href="http://127.0.0.1:5000">
                         <button
 
                             className="inline-flex items-center bg-blue-500 text-white border-0 py-2 px-5 font-semibold focus:outline-none hover:bg-blue-400 rounded-full text-base mt-4 md:mt-0"

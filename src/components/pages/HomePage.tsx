@@ -24,7 +24,7 @@ function HomePage() {
               Our Website is changing how people think about website design. Thanks to its user-friendly and intuitive interface, you can create, manage, and customize your website effortlessly.
             </p>
             <div className="flex justify-center">
-              <a href="https://rzp.io/l/xAq3aotl">
+              <a href="http://127.0.0.1:5000">
                 <button
                   className="flex mx-auto mt-0 text-white bg-blue-500 border-2 font-semibold py-4 px-14 hover:bg-white hover:text-blue-600 hover:border-blue-600 border-white duration-500 hover:scale-105 hover:font-bold scale-100 rounded-full text-lg hover:shadow-blue"
                 >
@@ -64,6 +64,27 @@ function HomePage() {
           </a>
         </div>
       </section>
+
+      <section className="text-gray-600 body-font bg-gray-100">
+        <div className="container lg:px-24 px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div className="sm:w-1/2 mb-10 px-4">
+              <div className="rounded-lg h-60 overflow-hidden flex justify-center items-center">
+                <img alt="content" className=" h-[150px] w-[400px] rounded-xl" src="/dalle.png" />
+              </div>
+              <h2 className="title-font text-3xl font-medium text-gray-900 mt-6 mb-3">Generate Unique Images with DALL-E</h2>
+              <p className="leading-relaxed text-lg">Create stunning visuals effortlessly using AI-powered image generation by DALL-E.</p>
+            </div>
+            <div className="sm:w-1/2 mb-10 px-4">
+              <div className="rounded-lg h-60 overflow-hidden flex justify-center items-center">
+                <img alt="content" className="h-[150px] w-[400px] rounded-xl" src="/lica.png" />
+              </div>
+              <h2 className="title-font text-3xl font-medium text-gray-900 mt-6 mb-3">Innovative AI Image Creation with Lica</h2>
+              <p className="leading-relaxed text-lg">Experience next-level image generation with Lica's advanced AI technology.</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="text-gray-600 body-font">
         <div className="container px-16 py-24 mx-auto ">
 
@@ -73,7 +94,7 @@ function HomePage() {
                 <LuBrainCircuit className="text-5xl text-white text-center" />
               </div>
               <h2 className="text-lg sm:text-2xl text-white font-bold title-font mb-2">Advanced style capabilities</h2>
-              <p className="leading-relaxed text-base  text-gray-400">Buid your site in any style or brand identity - just prompt it!</p>
+              <p className="leading-relaxed text-base  text-gray-400">Build your site in any style or brand identity - just prompt it!</p>
 
             </div>
             <div className="xl:w-1/3 text-center lg:w-1/2 md:w-full px-8 py-6 lg:border-l-2 border-dashed border-gray-200 border-opacity-60">
@@ -100,9 +121,9 @@ function HomePage() {
       <section className="text-gray-600 body-font bg-gray-100">
         <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="sm:text-5xl text-5xl  font-bold title-font mb-4 text-gray-900">Convert propmt into a site
+            <h1 className="sm:text-5xl text-5xl  font-bold title-font mb-4 text-gray-900">Convert audio prompt into a site
             </h1>
-            <p className="mb-8 text-xl ml-2 leading-relaxed">Write simple prompts and watch them convert into stunning, responsive web pages with just a click. Experience the easiest way to bring your visual content to life online. </p>
+            <p className="mb-8 text-xl ml-2 leading-relaxed">Write or speak simple prompts and watch them convert into stunning, responsive web pages with just a click. Experience the easiest way to bring your visual content to life online. </p>
             <div className="flex justify-center ml-3">
               <a href="https://rzp.io/l/xAq3aotls">
                 <button
