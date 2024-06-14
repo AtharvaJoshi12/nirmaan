@@ -72,8 +72,8 @@ function HomePage() {
               <div className="rounded-lg h-60 overflow-hidden flex justify-center items-center">
                 <img alt="content" className=" h-[150px] w-[400px] rounded-xl" src="/dalle.png" />
               </div>
-              <h2 className="title-font text-3xl font-medium text-gray-900 mt-6 mb-3">Generate Unique Images with DALL-E</h2>
-              <p className="leading-relaxed text-lg">Create stunning visuals effortlessly using AI-powered image generation by DALL-E.</p>
+              <h2 className="title-font text-3xl font-medium text-gray-900 mt-6 mb-3">Generate Unique Images with DALL-E3</h2>
+              <p className="leading-relaxed text-lg">Create stunning visuals effortlessly using AI-powered image generation by DALL-E3.</p>
             </div>
             <div className="sm:w-1/2 mb-10 px-4">
               <div className="rounded-lg h-60 overflow-hidden flex justify-center items-center">
